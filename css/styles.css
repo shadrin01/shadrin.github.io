@@ -1,0 +1,15 @@
+h1:hover {
+    color: maroon;
+}
+
+p#welcome::first-letter {
+    font-size: larger;
+}
+
+.same {
+    color: red;
+}
+
+charm {
+    color: blue
+}
