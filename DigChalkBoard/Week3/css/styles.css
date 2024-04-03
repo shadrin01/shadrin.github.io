@@ -1,0 +1,17 @@
+table {
+    font-family: 'Roboto', sans-serif;
+  }
+
+ol.a { list-style-type: lower-roman; }
+ol.b { list-style-type: lower-alpha; }
+ul.c { list-style-type: square; }
+ul.d { list-style-type: disc; }
+
+.custom-link:link { text-decoration: none; color: #ff4500; }
+.custom-link:visited { color: #a52a2a; }
+.custom-link:hover { color: #800000; font-weight: bold; }
+
+li::first-letter {
+    font-size: 150%; /* Увеличивает размер первой буквы */
+    font-weight: bold; /* Делает первую букву жирной */
+  }
