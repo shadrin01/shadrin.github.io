@@ -1,0 +1,28 @@
+.navbar-nav {
+    background-color: maroon;
+    padding-top: 0.5rem; 
+    padding-bottom: 0.5rem;
+}
+
+.navbar .container {
+    padding: 0; 
+    margin: 0 auto; 
+}
+
+.navbar .navbar-brand {
+    font-family: 'Arial', sans-serif !important; 
+}
+
+.navbar-nav .nav-link {
+    color: white; 
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-item .dropdown-menu {
+    background-color: maroon;
+    border-color: maroon; 
+}
+
+.dropdown-item {
+    color: white;
+}
