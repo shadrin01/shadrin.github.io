@@ -1,4 +1,4 @@
-/* Main styles */
+/* main style */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Styles for common container  */
+/* common container  */
 div {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -16,7 +16,7 @@ div {
     border-radius: 5px;
 }
 
-/*  Styles for entering text and buttons */
+/*  entering text and button style */
 input[type="text"] {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -40,7 +40,7 @@ button:hover {
     background-color: #003d82;
 }
 
-/* styles for text response  */
+/* text response  */
 #trivia-response,
 #number-response {
     margin-top: 10px;

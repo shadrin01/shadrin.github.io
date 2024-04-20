@@ -1,6 +1,6 @@
-// Functin for trvia qustion 
+// function for trvia qustion 
 function checkTriviaAnswer() {
-    const correctAnswer = "paris"; // corerct answer
+    const correctAnswer = "paris";
     const userAnswer = document.getElementById('trivia-answer').value.toLowerCase();
 
     // checking respose of user
@@ -13,12 +13,12 @@ function checkTriviaAnswer() {
     responseDiv.style.display = 'block'; 
 }
 
-// Function for checking number 
+// function for checking number 
 function checkNumber() {
     const number = document.getElementById('number-input').value;
     const responseDiv = document.getElementById('number-response');
 
-    // Checking that 5-digit number is entered 
+    // checking that 5-digit number is entered 
     if (/^\d{5}$/.test(number)) {
         const isEven = parseInt(number, 10) % 2 === 0;
         responseDiv.textContent = `${number} is an ${isEven ? 'even' : 'odd'} number.`;
