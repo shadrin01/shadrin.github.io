@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sorting Fruit with lastItem()</title>
+  <link rel="stylesheet" href="/DigChalkBoard/Week6/styles/styles.css">
+</head>
+<body>
+
+  <div id="part1" class="content">
+    <h3>Part 1: Initial Sorting</h3>
+    <p>Can our function output the last alphabetical fruit?</p>
+    <button onclick="lastItem(['Watermelon', 'Apple', 'Orange', 'Kiwi'], 'output1')">
+        Results
+    </button>
+    <div id="output1" class="output"></div>
+  </div>
+
+  <div id="part2" class="content">
+    <h3>Part 2: Testing Success by Adding More</h3>
+    <p>Now that we have experimented alphabetizing the 4 given fruits above, let's test this function further. Let's add "Banana", "Blueberries", "Mango", and "Peach" into the fruit salad we have already made.</p>
+    <p>If we add in more fruits, is the sorting still successful?</p>
+    <button onclick="lastItem(['Watermelon', 'Apple', 'Orange', 'Kiwi', 'Blueberries', 'Mango', 'Peach'], 'output2')">
+        Results
+    </button>
+    <div id="output2" class="output"></div>
+  </div>
+
+  <div id="part3" class="content">
+    <h3>Part 3: Testing with fruits later in the alphabet</h3>
+    <p>This next function sorts: 'Watermelon', 'Apple', 'Orange', 'Kiwi', 'Blueberries', 'Mango', 'Peach', and 'Yuzu' alphabetically.</p>
+    <p><em>What about if we add a fruit that starts with a letter that comes after the W in "Watermelon"? Can our sorting function handle that?</em></p>
+    <button onclick="lastItem(['Watermelon', 'Apple', 'Orange', 'Kiwi', 'Blueberries', 'Mango', 'Peach', 'Yuzu'], 'output3')">Results</button>
+    <div id="output3" class="output"></div>
+  </div>
+
+  <div id="part4" class="content">
+    <h3>Part 4: User Input Sorting</h3>
+    <button onclick="getAndSort()">Input Items</button>
+    <div id="userInputOutput" class="output"></div>
+  </div>
+
+  <script src="/DigChalkBoard/Week6/JS/sample.js"></script>
+
+</body>
+</html>
