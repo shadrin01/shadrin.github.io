@@ -1,7 +1,7 @@
 function searchArtist() {
     const searchInput = document.getElementById("searchInput").value.trim();
     if (searchInput=== "") {
-        alert("Please enter aartist's name");
+        alert("Please enter artist's name");
         return;
         }
 
